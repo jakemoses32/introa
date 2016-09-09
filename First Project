@@ -1,0 +1,10 @@
+<script>
+var textbox=prompt("Please enter what you would like to comment")
+console.log(textbox.length)
+if (textbox.length> 140){
+alert("Your response needs to be less than 140 words!")}
+else{
+alert("checking for urls...")}
+if (textbox== ".net" || textbox==".org" ||textbox=="www." || textbox==".com")
+{alert("you have attemped to open a url, this website can not be reached at this time, please try again later")}
+</script>
