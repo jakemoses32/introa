@@ -5,6 +5,9 @@ if (textbox.length> 140){
 alert("Your response needs to be less than 140 words!")}
 else{
 alert("checking for urls...")}
-if (textbox== ".net" || textbox==".org" ||textbox=="www." || textbox==".com")
+if (textbox.indexOf('www.')>=0)
+	(textbox.indexOf('.net')>=0)
+	(textbox.indexOf('.org')>=0)
+	(textbox.indexOf('.com')>=0)
 {alert("you have attemped to open a url, this website can not be reached at this time, please try again later")}
 </script>
