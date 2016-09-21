@@ -1,0 +1,15 @@
+<script>
+function gasMileage()
+{
+	var response=prompt("How many miles did you have on your car at the start of the day?")
+	var initial= parseInt(response)
+	var number=prompt("How many miles do you have on your car now?")
+	var miles= parseInt(number)
+	var answer= prompt("How many gallons of gas have you used today?")
+	var gallons= parseInt(answer)
+	var gasmileage=(miles-initial)/gallons
+	console.log(gasmileage)
+	alert("Your gas mileage is:" + gasmileage + "mpg")
+}
+	gasMileage()
+</script>  
