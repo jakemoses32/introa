@@ -1,0 +1,25 @@
+<script>
+function buying()
+{
+var price= prompt("What is the price of the item you are buying?")
+var pay= prompt("How much money are you paying for the item?")
+var change= pay-price
+var changeLeft = change *100;
+
+dollars= changeLeft/100;
+dollars=Math.floor(dollars);
+changeLeft= changeLeft % 100;
+quarters = changeLeft/25;
+quarters = Math.floor(quarters);
+changeLeft = changeLeft % 25;
+dimes = changeLeft/10;
+dimes = Math.floor(dimes);
+changeLeft = changeLeft % 10;
+nickels = changeLeft/5;
+nickels = Math.floor(nickels);
+changeLeft = changeLeft % 5;
+pennies = Math.floor(changeLeft);
+alert("Your change is " + dollars + "dollars, " + quarters + "quarters, " + dimes + "dimes, " + nickels + "nickels, " + pennies + "pennies. Thank you and have a nice day!")
+}
+buying()
+</script>	
