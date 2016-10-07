@@ -1,0 +1,58 @@
+<html>
+<head></head>
+<body>
+<canvas id="myCanvas" width="400" height="400"></canvas>
+<script>
+	var canvas=document.getElementById("myCanvas");
+	var ctx= canvas.getContext("2d");
+
+
+	ctx.fillStyle=("#d6ceb9");
+	ctx.fillRect(0,0,400,400);
+
+	ctx.fillStyle=("#f49600")
+	ctx.fillRect(50,50,150,150)
+	
+	ctx.fillStyle=("#eb7300")
+	ctx.fillRect(200,50,150,180)
+
+
+	ctx.fillStyle=("#e2c300")
+	ctx.fillRect(50,200,150,150)
+	
+	ctx.fillStyle=("#dbd700")
+	ctx.fillRect(200,200,150,150)
+
+	ctx.beginPath();
+	ctx.arc(200,200,75,.5*Math.PI,0.55*Math.PI);
+	ctx.strokeStyle= ("#262521");
+	ctx.lineWidth= "150";
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.arc(200,200,75,1*Math.PI,1.05*Math.PI);
+	ctx.strokeStyle= ("#262521");
+	ctx.lineWidth= "150";
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.arc(200,200,75,1.5*Math.PI,1.55*Math.PI);
+	ctx.strokeStyle= ("#262521");
+	ctx.lineWidth= "150";
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.arc(200,200,75,0*Math.PI,0.05*Math.PI);
+	ctx.strokeStyle= ("#262521");
+	ctx.lineWidth= "150";
+	ctx.stroke();
+	ctx.closePath();
+
+
+
+</script>
+</body>
+</html>
