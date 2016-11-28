@@ -1,0 +1,52 @@
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #61e5ff;
+}
+#photoWrapper {
+	width: 50%;
+	margin-left:25%;
+	background-color: #210cff;
+	padding: 10px 10px 10px 10px;
+}
+#options {
+	color: black;
+}
+#thePhoto {
+	width: 100%;
+	height: 500px;
+}
+
+p {
+	font-family: 'Lobster', cursive;
+	color: black;
+	font-size: 30px;
+}
+
+button {
+	margin-top: 10px;
+	background: #006327;
+	color: white;
+}
+#forwardButton {
+	position: static;
+	float: right;
+}
+.centerMe {
+	text-align: center;
+	color: #F2385A;
+}
+.bigWrapper{
+	background-color: #a5ffaa;
+	padding: 20px 20px 20px 20px;
+}
+h1{ 
+font-family: 'Pacifico', cursive;
+text-align: center;
+ }
+
+ #piechart{
+ 	padding: 10px 10px 10px 10px;
+ 	background-color: #210cff;
+ 	font-size: 100px;
+ }
