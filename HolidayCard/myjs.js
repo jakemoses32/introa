@@ -1,5 +1,5 @@
 
-var imageArray= ["http://bestanimations.com/Holidays/Birthday/black-calligraphy-happy-birthday-fireworks-wishes-animated-gif.gif", "https://media.giphy.com/media/lVul5STF9gYqk/giphy.gif", "https://s-media-cache-ak0.pinimg.com/736x/56/4b/b8/564bb83e5ffafad70a4806ecd2c8ab6f.jpg", "http://www.memecreator.org/static/images/memes/4182209.jpg",
+var imageArray= ["https://bestanimations.com/Holidays/Birthday/black-calligraphy-happy-birthday-fireworks-wishes-animated-gif.gif", "https://media.giphy.com/media/lVul5STF9gYqk/giphy.gif", "https://s-media-cache-ak0.pinimg.com/736x/56/4b/b8/564bb83e5ffafad70a4806ecd2c8ab6f.jpg", "http://www.memecreator.org/static/images/memes/4182209.jpg",
 	"https://s3.amazonaws.com/cdn.teachersource.com/images/products/pop/spc200.jpg",
 	"https://plusquotes.com/images/quotes-img/Happy_birthday.jpg",
 	"https://www.zastavki.com/pictures/originals/2013/Holidays___Birthday_Cheerful_dog_on_birthday_052382_.jpg", 
