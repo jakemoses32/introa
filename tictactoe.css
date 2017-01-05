@@ -1,0 +1,51 @@
+.gameStarts{
+	display:none;
+}
+.cell{
+	border: 2px solid black;
+	height: 50px;
+
+}
+.cell{
+	height: 100px !important; 
+	border-top: none;
+
+}
+.cell:first-child{
+	border:none;
+	border-bottom: 2px solid black;
+}
+.lastRow{
+	border-bottom:none !important;
+}
+.cell:last-child{
+	border:none;
+	border-bottom:2px solid black;
+}
+#A1{
+
+}
+#A2{
+
+}
+#A3{
+
+}
+#B1{
+
+}
+#B2{
+
+}
+#B3{
+
+}
+#C1{
+
+}
+#C2{
+
+}
+#C3{
+	
+}
